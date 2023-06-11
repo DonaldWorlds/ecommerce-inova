@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/c1ca22a59c.js"></script>
+</head>
+
+<body>
+  <!--This is for the header -->
+  <div class="container-fluid">
+    <header>
+      <h1 class="money-animation">
+        INOVA INOVA INOVA INOVA
+      </h1>
+    </header>
+  </div>
+
+
+  <!--This is for the nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-blue">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./index.html">Home</a></li>
+              <li><a class="dropdown-item" href="./product.html">Products</a></li>
+              <li><a class="dropdown-item" href="./about.html">About me</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <span class="label">Counted Items:</span>
+      <span class="countedItems">0</span>
+    </div>
+
+    <div>
+      <span class="label">Total Cost:</span>
+      <span class="totalCost">0</span>
+    </div>
+    <button type="button" class="clear" style=" display: none;">clear</button>
+    <div class="modal-launcher">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Cart
+      </button>
+    </div>
+   <div class="navbar-brand-container">
+      <img src="img/icon.png" alt="Logo" width="35" height="30" class="d-inline-block align-top" />
+      <span id="bootstrap-text" class="bootstrap-text ml-2"></span>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>Checkout Details</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody id="cartItems">
+              <!-- Cart items will be dynamically added here -->
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2" id="totalCostElement"></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="saveChangesBtn">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!--This is for the layout -->
+  <div class="container-layout">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-4 animate__animated animate__fadeIn">
+          Welcome to Our Online Store
+        </h1>
+        <p class="lead">Discover the best deals on the latest products!</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/christopher-burns-Kj2SaNHG-hg-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/joshua-sortino-LqKhnDzSF-8-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/maximalfocus-HakTxidk36I-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/mcdobbie-hu-5RgShZblKAQ-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/freestocks-BStW5kYXw4E-unsplash.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/finger-g0fc5584bf_1280.jpg" alt="picture" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/joshua-sortino-LqKhnDzSF-8-unsplash.jpg" alt="picture" />
+      </div>
+    </div>
+  </div>
+  <!-- Swiper JS -->
+
+
+
+  <!--This is for the footer-->
+  <footer class="footer-07">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <h2 class="footer-heading">
+            <a href="#" class="logo">INOVA</a>
+          </h2>
+          <p class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./product.html">Product</a>
+            <a href="./about.html">About</a>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <p class="text-white">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved To Donald Witherspoon
+            <i class="ion-ios-heart" aria-hidden="true"></i> by
+            <a href="./index.html" target="_blank">INOVA @</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="model.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="scriptSwiper.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+
+  <script>
+    const word = "INOVA";
+    const delay = 105; // Delay between each letter animation
+
+    let index;
+    const textElement = document.getElementById("bootstrap-text");
+    let intervalId;
+
+    function animateText() {
+      index = 0;
+      textElement.textContent = ""; // Reset text on each hover
+      clearInterval(intervalId);
+      intervalId = setInterval(() => {
+        if (index < word.length) {
+          textElement.textContent += word[index];
+          index++;
+        } else {
+          clearInterval(intervalId);
+        }
+      }, delay);
+    }
+
+    function resetText() {
+      clearInterval(intervalId);
+      textElement.textContent = "";
+    }
+
+    const navbarContainer = document.querySelector(".navbar-brand-container");
+    navbarContainer.addEventListener("mouseenter", animateText);
+    navbarContainer.addEventListener("mouseleave", resetText);
+
+    animateText(); // Trigger animation on page load
+  </script>
+</body>
+
+</html>

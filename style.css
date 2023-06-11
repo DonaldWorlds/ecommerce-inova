@@ -1,0 +1,286 @@
+
+/*This is for the header*/
+header {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  /* Adjust the padding values as needed */
+  height: 10px;
+  /* Adjust the height as needed */
+  background-color: whitesmoke;
+}
+
+header h1 {
+  font-size: 15px;
+  /* Adjust the font size as needed */
+  margin: 0;
+}
+
+@keyframes moveInova {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.money-animation {
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  animation: moveInova 15s linear infinite;
+  animation-fill-mode: both;
+  letter-spacing: 12px;
+  word-spacing: 500px;
+  color: crimson;
+}
+/*End of the header*/
+
+
+
+
+
+
+/*This is for the navbar*/
+nav.navbar {
+  margin-top: 18px;
+  /* Adjust the margin-top value as needed */
+}
+
+/*This is for the nav bar*/
+.navbar-blue {
+  background-color: blue;
+  
+}
+
+.navbar-brand-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bootstrap-text {
+  opacity: 0;
+  animation: fade-in 0.8s ease-in-out forwards;
+  color: crimson;
+  letter-spacing: 3px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*End of the navbar*/
+
+
+
+
+/* This is for the layout of the homepage*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+.container-layout {
+  padding-top: 1rem;
+  padding-bottom: 25rem; /* Adjust the padding-bottom value as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-layout h1 {
+  color: #333;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Example animation */
+}
+
+.container-layout p {
+  color: #777;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  animation: slideInLeft 1s ease-in-out; /* Example animation */
+}
+
+/* End of the layout page homepage*/
+
+
+
+/* This is for the swiper */
+.swiper-slide img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
+/* This is for the footer*/ 
+
+.footer-07 {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-footer {
+  padding-top: 20rem;
+  padding-bottom: 15rem; /* Adjust the padding-bottom value as needed */
+  text-align: center;
+  position: relative; /* Add relative positioning to the container */
+}
+
+
+
+.footer-07 .footer-heading {
+  font-size: 20px;
+  color: #f50404;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.footer-07 .footer-heading .logo {
+  color: #f50606;
+}
+
+.footer-07 .menu {
+  margin-bottom: 30px;
+}
+
+.footer-07 .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-07 p.text-white {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.footer-07 p.text-white a {
+  color: #fff;
+}
+
+.footer-07 p.text-white a:hover {
+  color: #aaa;
+}
+
+
+
+
+/*This is for the product cards */
+.container{
+  margin-top: 20px;
+}
+.product-card {
+    margin-bottom: 20px; /* Add margin between each product card */
+  }
+  
+  .text-container {
+    width: 70%;
+    padding-right: 20px;
+  }
+  
+  .image-container {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .card-title {
+    font-size: 20px; /* Adjust the font size for the title */
+  }
+  
+  ul.list-unstyled {
+    margin-top: 10px; /* Add spacing between the title and the list */
+  }
+  
+  .btn-sm {
+    font-size: 12px; /* Adjust the font size for the button */
+  }
+
+
+
+/*This is for the about me*/
+.highlight {
+  color: #ffca28; /* Yellow color for the highlight */
+}
+
+.text {
+  color: black; /* Set the text color to black */
+}
+
+.con {
+  padding-top: 50px; /* Add spacing at the top */
+}
+
+.mt-5 {
+  margin-top: 50px; /* Add margin at the top of the row */
+}
+
+.text-center {
+  text-align: center; /* Center align the text */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text {
+  animation: fadeIn 1s ease-in-out; /* Apply the fade-in animation to the text */
+}
