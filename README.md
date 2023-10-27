@@ -1,15 +1,29 @@
-Ecommerce Inova
+INOVA PROJECT
+Submitted by: Donald Witherspoon
+
+
 Overview
-Ecommerce Inova is a dynamic website crafted using HTML, CSS, and JavaScript. It is designed to showcase and facilitate the sale of various subscription plans or product packs. The project incorporates modern web technologies and libraries, including Bootstrap, Swiper, and Font Awesome.
+Inova is a simple eccom website. 
+
 
 Key Features and Functionality
-Header and Navigation: Ecommerce Inova features an eye-catching header with animated text. The user-friendly navigation bar provides seamless access to different sections of the website, including Home, Products, and About Us.
+Responsive Shopping Cart: Designed a responsive shopping cart for easy product addition and real-time cost tracking, improving the user shopping experience.
 
-Cart Functionality: The website includes a robust shopping cart system. Users can effortlessly add products to their cart, and the cart keeps them informed about the number of items added and the total cost. The cart details can be accessed through a modal window, displaying a comprehensive breakdown of selected items, including product names, prices, and quantities.
+Product Showcase with Modal: Developed an engaging product showcase using a grid layout, featuring one-click product addition and dynamic cart details display via a modal window.
 
-Product Showcase: Ecommerce Inova boasts an elegant product showcase that arranges multiple product cards in an organized grid layout. Each card offers detailed information about a specific product or subscription plan, including its name, price, and additional details. Users can conveniently add their preferred products to the shopping cart by clicking the "Add to Cart" button.
+Intuitive Navigation: Created a user-friendly navigation bar for seamless website section transitions, ensuring an excellent user experience across devices.
 
-Modal: For an enhanced user experience, the website implements a modal window to display cart details. The modal features a dynamic table that updates in real-time, showing the names, prices, and quantities of selected items. It calculates the total cost and presents it at the bottom of the table.
+Utilized Technologies
+HTML
+CSS
+JavaScript
+Bootstrap
+Swiper.JS
+Font Awesome
 
-Responsive Design: Ecommerce Inova is developed with responsiveness in mind. The website is optimized for various devices and screen sizes, ensuring a consistent and enjoyable user experience.
 
+
+License
+Copyright 20233 Donald Witherspoon
+
+Licensed under the MIT License. You may not use this file except in compliance with the License.
