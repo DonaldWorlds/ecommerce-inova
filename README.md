@@ -1,4 +1,4 @@
-[INOVA PROJECT]
+INOVA PROJECT
 Submitted by: Donald Witherspoon
 
 
